@@ -1,0 +1,88 @@
+--RED FORCES
+Spawn_Plane  = SPAWN:New ( "51TFSQ" ) :InitLimit ( 2, 120 ) :SpawnScheduled ( 10, 0 ) --F-5 stationed at Lar Airport
+Spawn_Plane1 = SPAWN:New ( "52TFSQ" ) :InitLimit ( 2, 120 ) :SpawnScheduled ( 10, 0 ) --F-5 stationed at Lar Airport
+Spawn_Plane2 = SPAWN:New ( "53TFSQ" ) :InitLimit ( 2, 120 ) :SpawnScheduled ( 10, 0 ) --F-5 stationed at Lar Airport
+Spawn_Plane3 = SPAWN:New ( "71TFSQ" ) :InitLimit ( 2, 120 ) :SpawnScheduled ( 10, 0 ) --F-4 stationed at Shiraz Intl Airport
+Spawn_Plane4 = SPAWN:New ( "72TFSQ" ) :InitLimit ( 2, 120 ) :SpawnScheduled ( 10, 0 ) --F-14 stationed at Shiraz Intl Airport
+Spawn_Plane5 = SPAWN:New ( "73TFSQ" ) :InitLimit ( 2, 120 ) :SpawnScheduled ( 10, 0 ) --F-14 stationed at Shiraz Intl Airport
+Spawn_Plane6 = SPAWN:New ( "91TFSQ" ) :InitLimit ( 2, 120 ) :SpawnScheduled ( 10, 0 ) --F-4 stationed at Bandar Abbas Intl Airport
+--BLUE FORCES
+Spawn_Plane10 = SPAWN:New (   "1SSQN" ) :InitLimit ( 2, 120 ) :SpawnScheduled ( 10, 0 ) --F-16 stationed at Al Dafra AFB
+Spawn_Plane11 = SPAWN:New (   "2SSQN" ) :InitLimit ( 2, 120 ) :SpawnScheduled ( 10, 0 ) --F-16 stationed at Al Dafra AFB
+Spawn_Plane12 = SPAWN:New (   "3SSQN" ) :InitLimit ( 2, 120 ) :SpawnScheduled ( 10, 0 ) --F-16 stationed at Al Dafra AFB
+Spawn_Plane13 = SPAWN:New ( "71TFSQN" ) :InitLimit ( 2, 120 ) :SpawnScheduled ( 10, 0 ) --M-2000 stationed at Al Dafra AFB
+Spawn_Plane14 = SPAWN:New ( "76TFSQN" ) :InitLimit ( 2, 120 ) :SpawnScheduled ( 10, 0 ) --M-2000 stationed at Al Dafra AFB
+Spawn_Plane15 = SPAWN:New ( "86TFSQN" ) :InitLimit ( 2, 120 ) :SpawnScheduled ( 10, 0 ) --M-2000 stationed at Al Dafra AFB
+--RED FORCES
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Abu_Musa_Island_Airport ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Bandar-e-Jask_Airfield ), SPAWN.Takeoff.Hot )
+Spawn_Plane6:SpawnAtAirbase( AIRBASE:FindByName ( AIRBASE.PersianGulf.Bandar_Abbas_Intl ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Bandar_Lengeh ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Havadarya ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Jiroft_Airport ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Kerman_Airport ), SPAWN.Takeoff.Runway )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Kish_International_Airport ), SPAWN.Takeoff.Hot )
+Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Lar_Airbase ), SPAWN.Takeoff.Runway )
+Spawn_Plane1:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Lar_Airbase ), SPAWN.Takeoff.Hot )
+Spawn_Plane2:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Lar_Airbase ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Lavan_Island_Airport ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Qeshm_Island ), SPAWN.Takeoff.Hot )
+Spawn_Plane3:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Shiraz_International_Airport ), SPAWN.Takeoff.Runway )
+Spawn_Plane4:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Shiraz_International_Airport ), SPAWN.Takeoff.Hot )
+Spawn_Plane5:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Shiraz_International_Airport ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Sirri_Island ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Tunb_Island_AFB ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Tunb_Kochak ), SPAWN.Takeoff.Hot )
+--BLUE FORCES
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Abu_Dhabi_International_Airport ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Al-Bateen_Airport ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Al_Ain_International_Airport ), SPAWN.Takeoff.Hot )
+Spawn_Plane10:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Al_Dhafra_AB ), SPAWN.Takeoff.Hot )
+Spawn_Plane11:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Al_Dhafra_AB ), SPAWN.Takeoff.Hot )
+Spawn_Plane12:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Al_Dhafra_AB ), SPAWN.Takeoff.Hot )
+Spawn_Plane13:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Al_Dhafra_AB ), SPAWN.Takeoff.Hot )
+Spawn_Plane14:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Al_Dhafra_AB ), SPAWN.Takeoff.Hot )
+Spawn_Plane15:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Al_Dhafra_AB ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Al_Maktoum_Intl ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Al_Minhad_AB ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Dubai_Intl ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Fujairah_Intl ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Khasab ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Sas_Al_Nakheel_Airport ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Sharjah_Intl ), SPAWN.Takeoff.Hot )
+--Spawn_Plane:SpawnAtAirbase( AIRBASE:FindByName( AIRBASE.PersianGulf.Sir_Abu_Nuayr ), SPAWN.Takeoff.Hot )
+
+MISSILETRAINER:New ( 175 , "Missile Trainer Action-aited" ):InitMessagesOnOff(False):InitTrackingToAll(true):InitTrackingOnOff(true):InitTrackingFrequency(true):InitAlertsToAll(false):InitAlertsHitsOnOff(true):InitAlertsLaunchesOnOff(false):InitRangeOnOff(false):InitBearingOnOff(false):InitMenusOnOff(true)
+--RED FORCES
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Abu_Musa_Island_Airport )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Bandar-e-Jask_Airfield )
+Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Bandar_Abbas_Intl )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Bandar_Lengeh )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Havadarya )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Jiroft_Airport )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Kerman_Airport )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Kish_International_Airport )
+Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Lar_Airbase )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Lavan_Island_Airport )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Qeshm_Island )
+Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Shiraz_International_Airport )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Sirri_Island )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Tunb_Island_AFB )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Tunb_Kochak )
+--BLUE FORCES
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Abu_Dhabi_International_Airport )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Al-Bateen_Airport )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Al_Ain_International_Airport )
+Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Al_Dhafra_AB )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Al_Maktoum_Intl )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Al_Minhad_AB )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Dubai_Intl )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Fujairah_Intl )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Khasab )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Sas_Al_Nakheel_Airport )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Sharjah_Intl )
+--Clean = CLEANUP_AIRBASE:New( AIRBASE.PersianGulf.Sir_Abu_Nuayr )
+Clean:SetCleanMissiles( false )
+
+--RED ZONES
+--BLUEZONES
